@@ -15,7 +15,7 @@ async function getNumberFact(num) {
     console.log(numFact.data.text)
 }
 
-getNumberFact(7);
+//getNumberFact(7);
 
 // console.log(resp)
 
@@ -27,7 +27,7 @@ async function getManyNumberFacts(num1,num2,num3) {
     }
 }
 
-getManyNumberFacts(1,2,3)
+//getManyNumberFacts(1,2,3)
 
 async function getManyFactsOneNum(num) {
     let fact1 = axios.get(`${BASE_URL}/${num}?json`);
@@ -42,4 +42,4 @@ async function getManyFactsOneNum(num) {
     
 }
 
-getManyFactsOneNum(22)
+//getManyFactsOneNum(22)
